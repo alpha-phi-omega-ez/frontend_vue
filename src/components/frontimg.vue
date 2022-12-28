@@ -1,0 +1,23 @@
+<script setup>
+import image from "../assets/img/frontpic.jpg";
+</script>
+
+<template>
+    <div id="homeimg">
+        <img src="image"/>
+    </div>
+</template>
+
+<script>
+    export default {
+        data:function() {
+            return {
+                image: image
+            }
+        }
+
+    }
+</script>
+
+<style lang="css">
+</style>
