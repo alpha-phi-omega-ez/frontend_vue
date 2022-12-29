@@ -11,7 +11,6 @@ defineProps({
 
 <template>
   <div id="Home">
-    <img :src='require()'/>
     <h3>
     </h3>
   </div>
