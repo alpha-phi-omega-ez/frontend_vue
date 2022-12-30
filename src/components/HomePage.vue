@@ -1,25 +1,21 @@
 <script setup>
-import { assertExpressionStatement } from "@babel/types";
 import image from "../assets/img/frontpic.jpg";
+import frontimage from "./frontimg.vue";
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>
 
 <template>
-  <div id="Home">
-    <h3>
-    </h3>
+  <div id="HomePage">
+    <frontimage/>
   </div>
 </template>
 
-<script>
-
-</script>
-
+<script></script>
 
 <style scoped>
 h1 {
@@ -31,7 +27,6 @@ h1 {
 h3 {
   font-size: 1.2rem;
 }
-
 
 .greetings h1,
 .greetings h3 {

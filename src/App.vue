@@ -1,6 +1,7 @@
 <script setup>
-import Home from './components/Home.vue'
-import navbar from './components/navbar.vue'
+import HomePage from "./components/HomePage.vue";
+import navBar from "./components/navBar.vue";
+import frontimage from "./components/frontimg.vue";
 </script>
 
 <template>
@@ -8,11 +9,13 @@ import navbar from './components/navbar.vue'
     <div class="wrapper">
       <main msg="Alpha Phi Omega, Epsilon Zeta Chapter" />
     </div>
-    <Home>
-    </Home>
+    <HomePage>
+      <frontimage>
+      </frontimage>
+    </HomePage>
   </header>
   <main>
-    <navbar />
+    <navbar/>
   </main>
 </template>
 
@@ -21,7 +24,7 @@ header {
   line-height: 1;
 }
 
-.home {
+.HomePage {
   display: block;
   margin: 0 auto 2rem;
 }
