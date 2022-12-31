@@ -7,6 +7,7 @@ import image from "../assets/img/frontpic.jpg";
     <img src="../assets/img/frontpic.jpg"
       width="1100"
       height="400"
+      position="center"
     />
   </div>
 </template>
