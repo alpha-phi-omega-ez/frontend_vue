@@ -1,6 +1,6 @@
 <script setup>
-import image from "../assets/img/frontpic.jpg";
 import frontimage from "./frontimg.vue";
+import navBar from "./navBarComp/navBar.vue";
 defineProps({
   msg: {
     type: String,
@@ -27,7 +27,9 @@ h1 {
 h3 {
   font-size: 1.2rem;
 }
-
+.navBar {
+  padding:0
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;

@@ -1,5 +1,5 @@
 <script setup>
-import image from "../assets/img/frontpic.jpg";
+import image from "../assets/img/websiteCreation.png";
 </script>
 
 <template>
