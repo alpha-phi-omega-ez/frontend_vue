@@ -4,30 +4,13 @@ import image from "../assets/img/frontpic.jpg";
 
 <template>
   <div class="PhotoReel">
-    <div class="homeimg">
-     <img src="../assets/img/frontpic.jpg"
-       width="600"
-       height="300"
-       position="left"/>
-    </div>
-    <div class="spacer">
-      <img src="../assets/img/WhiteFull.png"
-      width="50"
-      height="300"/>
-    </div>
-    <div class="sideimg">
-      <img src="../assets/img/pic6.png"
-        width="200" 
-        height="150"
+    <a href="https://www.apoez.org/">
+      <img src="../assets/img/websiteCreation.png"
+        width="1000" 
+        height="800"
         position="top"/>
-    </div>
-    </div>
-    <div class="sideimg">
-      <img src="../assets/img/pic6.png"
-        width="200" 
-        height="150"
-        position="top"/>
-    </div>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -47,5 +30,7 @@ export default {
 .PhotoReel  {
   display: flex;
   align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 </style>
