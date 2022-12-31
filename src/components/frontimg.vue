@@ -4,13 +4,10 @@ import image from "../assets/img/frontpic.jpg";
 
 <template>
   <div id="homeimg">
-    <img
-      xmlns="https://www.w3.org/2000/svg"
-      width="1400"
+    <img src="../assets/img/frontpic.jpg"
+      width="1100"
       height="400"
-      fill="../assets/img/frontpic.jpg"
     />
-         <path  d="../assets/img/frontpic.jpg"/>
   </div>
 </template>
 
