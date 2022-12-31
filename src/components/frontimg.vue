@@ -3,13 +3,31 @@ import image from "../assets/img/frontpic.jpg";
 </script>
 
 <template>
-  <div id="homeimg">
-    <img src="../assets/img/frontpic.jpg"
-      width="1100"
-      height="400"
-      position="center"
-    />
-  </div>
+  <div class="PhotoReel">
+    <div class="homeimg">
+     <img src="../assets/img/frontpic.jpg"
+       width="600"
+       height="300"
+       position="left"/>
+    </div>
+    <div class="spacer">
+      <img src="../assets/img/WhiteFull.png"
+      width="50"
+      height="300"/>
+    </div>
+    <div class="sideimg">
+      <img src="../assets/img/pic6.png"
+        width="200" 
+        height="150"
+        position="top"/>
+    </div>
+    </div>
+    <div class="sideimg">
+      <img src="../assets/img/pic6.png"
+        width="200" 
+        height="150"
+        position="top"/>
+    </div>
 </template>
 
 <script>
@@ -22,4 +40,12 @@ export default {
 };
 </script>
 
-<style lang="css"></style>
+<style lang="css">
+</style>
+
+<style scoped>
+.PhotoReel  {
+  display: flex;
+  align-items: center;
+}
+</style>
