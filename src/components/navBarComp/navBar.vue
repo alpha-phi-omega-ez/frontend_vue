@@ -1,4 +1,5 @@
 <script setup>
+import Dropdown from './Menu-items/Dropdown.vue';
 </script>
 
 <template>
@@ -6,14 +7,17 @@
         <nav>
             <div class="navBar">
                   <div class="branding">
-                     <img src="../../assets/img/apologomenu.png" 
-                        width="370" 
-                        height="50"
-                        position="top"/>
+                         <a href="../HomePage.vue">
+                             <img src="../../assets/img/apologomenu.png" 
+                                 width="450" 
+                                 height="60"
+                                 position="top"/>
+                        </a>
                     </div>
                  <div class="menu-items">
                          <div class="menu-item"><a href="#">About Us</a></div>
-                         <div class="menu-item"><a href="#">Service</a></div>
+                         <div class="menu-item"><a href="./Dropdown.vue">Service</a>
+                            <Dropdown title="Service" :items="service"/></div>
                          <div class="menu-item"><a href="#">Fellowship</a></div>
                          <div class="menu-item"><a href="#">Information</a></div>
                          <div class="menu-item"><a href="#">Login</a></div>
@@ -26,7 +30,23 @@
 
 <script>
 export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    components: {
+        Dropdown
+    },
+    data(){
+        Service: [
+            {
+            title: 'Web',
+            link: '#'
+
+            },
+            {
+            title: 'Design',
+            link: '#'   
+            },
+    ]
+    }
 };
 </script>
 
