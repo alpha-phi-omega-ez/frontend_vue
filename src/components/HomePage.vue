@@ -49,9 +49,7 @@ header {
 h3 {
   font-size: 1.2rem;
 }
-.navBar {
-  padding:0
-}
+
 .HomePage {
   margin: 0;
   padding: 0;

@@ -8,8 +8,6 @@ import frontimage from "./components/frontimg.vue";
     <div class="wrapper">
          <main msg="Alpha Phi Omega, Epsilon Zeta Chapter" />
              <HomePage>
-                <frontimage>
-                </frontimage>
             </HomePage>
     </div>
 </template>
