@@ -10,12 +10,25 @@ defineProps({
 </script>
 
 <template>
-  <div id="HomePage">
-    <frontimage/>
-  </div>
+    <div class="HomePage">
+       <navBar>
+       </navBar>
+          <frontimage>
+          </frontimage>
+    </div>
 </template>
 
-<script></script>
+
+<script>
+export default{
+  name:'HomePage',
+  components:(
+    navBar,
+    frontimage
+  )
+}
+</script>
+
 
 <style scoped>
 h1 {
@@ -23,12 +36,26 @@ h1 {
   font-size: 1rem;
   top: -10px;
 }
-
+header {
+    display: block;
+    place-items: left;
+    justify-content: left;
+    align-items: left;
+    padding-right: calc(var(--section-gap) / 2);
+    width: 100vw;
+    background-color:rgb(221, 231, 231);
+    padding:0
+  }
 h3 {
   font-size: 1.2rem;
 }
 .navBar {
   padding:0
+}
+.HomePage {
+  margin: 0;
+  padding: 0;
+  display:block;
 }
 .greetings h1,
 .greetings h3 {
@@ -40,5 +67,6 @@ h3 {
   .greetings h3 {
     text-align: center;
   }
+
 }
 </style>

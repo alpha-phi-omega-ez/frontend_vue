@@ -5,18 +5,13 @@ import frontimage from "./components/frontimg.vue";
 </script>
 
 <template>
-  <header>
     <div class="wrapper">
-      <main msg="Alpha Phi Omega, Epsilon Zeta Chapter" />
+         <main msg="Alpha Phi Omega, Epsilon Zeta Chapter" />
+             <HomePage>
+                <frontimage>
+                </frontimage>
+            </HomePage>
     </div>
-    <HomePage>
-      <frontimage>
-      </frontimage>
-    </HomePage>
-  </header>
-  <main>
-    <navbar/>
-  </main>
 </template>
 
 <style scoped>
@@ -30,20 +25,29 @@ header {
 }
 
 @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
+  
   .logo {
     margin: 0 2rem 0 0;
   }
-
+  header {
+    display: block;
+    place-items: left;
+    justify-content: left;
+    align-items: left;
+    padding-right: calc(var(--section-gap) / 2);
+    width: 100vw;
+    background-color:rgb(174, 179, 248);
+    padding: 1.5px
+  }
   header .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 </style>
