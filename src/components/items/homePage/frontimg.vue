@@ -1,13 +1,13 @@
 <script setup>
-import image from "../assets/img/websiteCreation.png";
+import image from "../../../assets/img/websiteCreation.png";
 </script>
 
 <template>
      <div class="PhotoReel">
         <a href="https://www.apoez.org/">
-            <img src="../assets/img/websiteCreation.png"
-              width="1000" 
-              height="700"
+            <img src="../../../assets/img/websiteCreation.png"
+              width="950" 
+              height="670"
               position="center"/>
         </a>
      </div>
@@ -23,8 +23,6 @@ export default {
 };
 </script>
 
-<style lang="css">
-</style>
 
 <style scoped>
 .PhotoReel  {

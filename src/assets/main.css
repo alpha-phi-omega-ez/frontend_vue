@@ -17,13 +17,15 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: hsl(160, 100%, 37%);
+    width:auto;
+    height:fit-content;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
     place-items: center;
+    margin:0
   }
 
   #app {

@@ -1,6 +1,7 @@
 <script setup>
-import frontimage from "./frontimg.vue";
-import navBar from "./navBarComp/navBar.vue";
+import frontimage from "../items/homePage/frontimg.vue";
+import navBar from "../items/navBarComp/navBar.vue";
+import BodyText from "../items/homePage/homeBlurb.vue"
 defineProps({
   msg: {
     type: String,
@@ -15,6 +16,14 @@ defineProps({
        </navBar>
           <frontimage>
           </frontimage>
+              <div class="block">
+                <img src="../../assets/img/block.png"
+                 width="250" 
+                 height="30"
+                 position="center"/>
+              </div>
+          <BodyText>
+          </BodyText>
     </div>
 </template>
 
@@ -24,16 +33,29 @@ export default{
   name:'HomePage',
   components:(
     navBar,
-    frontimage
+    frontimage,
+    BodyText
   )
 }
 </script>
 
 
 <style scoped>
+.block{
+  align-items:center;
+  justify-content: center;
+  display:flex;
+}
+
+img {
+  align-items: center;
+  justify-content: center;
+  margin: 31px;
+  place-items: center;
+}
 h1 {
-  font-weight: 5;
-  font-size: 1rem;
+  font-weight: 3;
+  font-size: .2rem;
   top: -10px;
 }
 header {

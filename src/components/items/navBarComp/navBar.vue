@@ -8,16 +8,15 @@ import Dropdown from './Menu-items/Dropdown.vue';
             <div class="navBar">
                   <div class="branding">
                          <a href="../HomePage.vue">
-                             <img src="../../assets/img/apologomenu.png" 
-                                 width="450" 
-                                 height="60"
+                             <img src="../../../assets/img/apologomenu.png" 
+                                 width="350" 
+                                 height="45"
                                  position="top"/>
                         </a>
                     </div>
                  <div class="menu-items">
                          <div class="menu-item"><a href="#">About Us</a></div>
-                         <div class="menu-item"><a href="./Dropdown.vue">Service</a>
-                            <Dropdown title="Service" :items="service"/></div>
+                         <div class="menu-item"><a href="#">Service</a></div>
                          <div class="menu-item"><a href="#">Fellowship</a></div>
                          <div class="menu-item"><a href="#">Information</a></div>
                          <div class="menu-item"><a href="#">Login</a></div>
@@ -35,17 +34,7 @@ export default {
         Dropdown
     },
     data(){
-        Service: [
-            {
-            title: 'Web',
-            link: '#'
-
-            },
-            {
-            title: 'Design',
-            link: '#'   
-            },
-    ]
+        
     }
 };
 </script>
@@ -56,9 +45,10 @@ nav .menu-items {
     color:blue;
     position:relative;
     text-align:center;
-    border-bottom: 3px solid transparent;
+    border-bottom: 0px solid transparent;
     display:flex;
     transition:0.4s;
+    font-size: 15px;
 }
 nav.menu-items a {
     color:cornflowerblue;
@@ -70,4 +60,5 @@ nav .menu-item  {
 nav .navBar  {
     display:flex;
 }
+
 </style>

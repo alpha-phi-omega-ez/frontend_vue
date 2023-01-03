@@ -1,5 +1,6 @@
 <script setup>
 import { isSVGTag } from '@vue/shared';
+import navBar  from "../navBar.vue"
 
 
 </script>

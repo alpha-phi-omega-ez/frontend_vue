@@ -9,9 +9,11 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@vue/cli-plugin-router": "^5.0.8",
     "bootstrap": "^5.3.0-alpha1",
     "vue": "^3.2.45",
-    "vue-navigation-bar": "^5.0.2"
+    "vue-navigation-bar": "^5.0.2",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

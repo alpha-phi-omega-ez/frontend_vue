@@ -1,12 +1,12 @@
 <script setup>
-import HomePage from "./components/HomePage.vue";
-import navBar from "./components/navBarComp/navBar.vue";
-import frontimage from "./components/frontimg.vue";
+import HomePage from "./components/views/HomePage.vue";
+import navBar from "./components/items/navBarComp/navBar.vue";
+import frontimage from "./components/items/homePage/frontimg.vue";
 </script>
 
 <template>
     <div class="wrapper">
-         <main msg="Alpha Phi Omega, Epsilon Zeta Chapter" />
+         <main msg="Alpha Phi Omega, Epsilon Zeta Chapter at Rensselaer Polytechnic Institute" />
              <HomePage>
             </HomePage>
     </div>
@@ -32,10 +32,10 @@ header {
     place-items: left;
     justify-content: left;
     align-items: left;
-    padding-right: calc(var(--section-gap) / 2);
-    width: 100vw;
+    padding-right: 10px 10px;
+    width: 70vw;
     background-color:rgb(174, 179, 248);
-    padding: 1.5px
+    padding: .3px
   }
   header .wrapper {
     display: flex;
