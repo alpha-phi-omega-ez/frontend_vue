@@ -27,16 +27,6 @@ header {
   .logo {
     margin: 0 2rem 0 0;
   }
-  header {
-    display: block;
-    place-items: left;
-    justify-content: left;
-    align-items: left;
-    padding-right: 10px 10px;
-    width: 70vw;
-    background-color:rgb(174, 179, 248);
-    padding: .3px
-  }
   header .wrapper {
     display: flex;
     place-items: flex-start;

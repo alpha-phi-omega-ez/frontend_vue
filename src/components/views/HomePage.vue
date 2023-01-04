@@ -16,14 +16,8 @@ defineProps({
        </navBar>
           <frontimage>
           </frontimage>
-              <div class="block">
-                <img src="../../assets/img/block.png"
-                 width="250" 
-                 height="30"
-                 position="center"/>
-              </div>
-          <BodyText>
-          </BodyText>
+              <BodyText>
+              </BodyText>
     </div>
 </template>
 
@@ -41,17 +35,14 @@ export default{
 
 
 <style scoped>
-.block{
-  align-items:center;
-  justify-content: center;
-  display:flex;
-}
 
 img {
   align-items: center;
   justify-content: center;
-  margin: 31px;
+  margin-top: 31px;
+  margin-bottom: 80px;
   place-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {
   font-weight: 3;
@@ -65,7 +56,7 @@ header {
     align-items: left;
     padding-right: calc(var(--section-gap) / 2);
     width: 100vw;
-    background-color:rgb(221, 231, 231);
+    background-color:rgb(255, 255, 255);
     padding:0
   }
 h3 {
@@ -77,16 +68,9 @@ h3 {
   padding: 0;
   display:block;
 }
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
+
 
 @media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: center;
-  }
-
+ 
 }
 </style>

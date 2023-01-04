@@ -48,17 +48,24 @@ nav .menu-items {
     border-bottom: 0px solid transparent;
     display:flex;
     transition:0.4s;
-    font-size: 15px;
+    font-size: 16px;
 }
 nav.menu-items a {
     color:cornflowerblue;
     text-decoration:none;
 }
 nav .menu-item  {
-    padding: 15px 40px;
+    padding: 15px 45px;
 }
 nav .navBar  {
     display:flex;
 }
-
+header{
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:200;
+    height:55px
+}
 </style>
+
