@@ -84,7 +84,7 @@ export default {
         align-items: center;
         justify-items: center;
         text-align: center;
-        font-size: 30px;
+        font-size: 22px;
         display: block;
         text-decoration: none;
         letter-spacing:.1px;
@@ -99,7 +99,7 @@ export default {
         align-items: center;
         justify-items: center;
         text-align:justify;
-        font-size: 25px;
+        font-size: 21px;
         display: block;
         text-decoration: none;
         margin: 0px;
