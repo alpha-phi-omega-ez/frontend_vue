@@ -1,57 +1,57 @@
 
 
 <template>
-    <body>
-          <h1>Welcome to the Official Website of Alpha Phi Omega, Epsilon Zeta Chapter!</h1>
-               <div class="composite">
-                   <img src="../../../assets/img/F2022_Composite_1.png"
-                        width="980" 
-                        height="590"
-                        position="center"/>
-               </div>
-          <h1>Be a Leader, Be a Friend, Be of Service</h1>
-      <div class="whatIsAPO">
-          <div class="texT1">
-              <h2>What is Alpha Phi Omega?</h2>
-                   <div class="decor">
-                        <img src="../../../assets/img/decor.png"
-                            width="440" 
-                            height="15"
-                            position="center"/>
-                   </div>
-              <h3>Alpha Phi Omega is a gender-inclusive national</h3>
-              <h3>service fraternity affiliated and founded on Boy</h3>
-              <h3>Scout Principles. As an organization, we strive</h3>
-              <h3>to better our community, campus, country, and</h3>
-              <h3>beyond through serving others and volunteerism,</h3>
-              <h3>while promoting ideals of leadership, friendship,</h3>
-              <h3>and service amongst members. First established</h3>
-              <h3>on Lafayette's College campus (PA), in 1925,</h3>
-              <h3>membership has since grown to over 525,000</h3>
-              <h3>members and 325 chapters nationwide!</h3>
-            </div>
-        <div class="LFS">
-            <img src="../../../assets/img/LeadershipFriendshipService.png"
-                    width="750" 
-                    height="540"
-                    position="center"/>
-        </div>
+         <body>
+               <h1>Welcome to the Official Website of Alpha Phi Omega, Epsilon Zeta Chapter!</h1>
+                   <div class="composite">
+                       <img src="../../../assets/img/F2022_Composite_1.png"
+                           width="980" 
+                           height="590"
+                           position="center"/>
+                  </div>
+               <h1>Be a Leader, Be a Friend, Be of Service</h1>
+           <div class="whatIsAPO">
+                    <div class="texT1">
+                           <h2>What is Alpha Phi Omega?</h2>
+                                <div class="decor">
+                                      <img src="../../../assets/img/decor.png"
+                                         width="440" 
+                                         height="15"
+                                         position="center"/>
+                                </div>
+                            <h3>Alpha Phi Omega is a gender-inclusive national</h3>
+                            <h3>service fraternity affiliated and founded on Boy</h3>
+                            <h3>Scout Principles. As an organization, we strive</h3>
+                            <h3>to better our community, campus, country, and</h3>
+                            <h3>beyond through serving others and volunteerism,</h3>
+                            <h3>while promoting ideals of leadership, friendship,</h3>
+                            <h3>and service amongst members. First established</h3>
+                            <h3>on Lafayette's College campus (PA), in 1925,</h3>
+                            <h3>membership has since grown to over 525,000</h3>
+                            <h3>members and 325 chapters nationwide!</h3>
+                    </div>
+                    <div class="LFS">
+                          <img src="../../../assets/img/LeadershipFriendshipService.png"
+                              width="750" 
+                              height="540"
+                              position="center"/>
+                    </div>
+                </div>
+          </body>
+      <div class="pin">
+                 <img src="../../../assets/img/ako'yapo.png"
+                       width="70" 
+                       height="70"
+                       position="center"/>
       </div>
-     </body>
-    <div class="pin">
-                <img src="../../../assets/img/ako'yapo.png"
-                    width="70" 
-                    height="70"
-                    position="center"/>
-    </div>
-     <div class="coatOfArms">
-                <img src="../../../assets/img/coatOfArms.png"
-                    width="70" 
-                    height="70"
-                    position="center"/>
-    </div>
+      <div class="coatOfArms">
+                  <img src="../../../assets/img/coatOfArms.png"
+                      width="70" 
+                      height="70"
+                      position="center"/>
+      </div>
     <div class="ApoEZ">
-      <button>EZ's History</button>
+        <button>EZ's History</button>
     </div>
 </template>
 
@@ -123,6 +123,7 @@ export default {
         letter-spacing: .3px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
+   
 .ApoEZ {
   text-align:center;
 }
@@ -134,13 +135,21 @@ export default {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  margin-bottom: 0rem;
+  margin-bottom: 0px;
   margin-top:0px;
+  width:980; 
+  height:590
+  
+}
+img:hover{
+  box-shadow: 0 0 9px 9px rgba(0, 255, 89, 0.5);
+  
 }
 .decor{
   text-indent: 120px;
   margin-bottom: .5rem;
-  margin-top: .3rem
+  margin-top: .3rem;
+  
 }
 .pin  {
   display: inline-block;
