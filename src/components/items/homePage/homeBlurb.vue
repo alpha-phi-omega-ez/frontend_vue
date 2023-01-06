@@ -1,3 +1,6 @@
+<script setup>
+import FooterBottom from "../MultiUse/FooterPage.vue"
+</script>
 
 
 <template>
@@ -5,8 +8,8 @@
                <h1>Welcome to the Official Website of Alpha Phi Omega, Epsilon Zeta Chapter!</h1>
                    <div class="composite">
                        <img src="../../../assets/img/F2022_Composite_1.png"
-                           width="980" 
-                           height="590"
+                           width="1150" 
+                           height="700"
                            position="center"/>
                   </div>
                <h1>Be a Leader, Be a Friend, Be of Service</h1>
@@ -32,27 +35,14 @@
                     </div>
                     <div class="LFS">
                           <img src="../../../assets/img/LeadershipFriendshipService.png"
-                              width="750" 
-                              height="540"
+                              width="880" 
+                              height="670"
                               position="center"/>
                     </div>
                 </div>
           </body>
-      <div class="pin">
-                 <img src="../../../assets/img/ako'yapo.png"
-                       width="70" 
-                       height="70"
-                       position="center"/>
-      </div>
-      <div class="coatOfArms">
-                  <img src="../../../assets/img/coatOfArms.png"
-                      width="70" 
-                      height="70"
-                      position="center"/>
-      </div>
-    <div class="ApoEZ">
-        <button>EZ's History</button>
-    </div>
+     <FooterBottom>
+     </FooterBottom>
 </template>
 
 
@@ -67,7 +57,7 @@ export default {
 </script>
 
 
-<style lang="css">
+<style scoped lang="css">
     button  {
       font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 25px;
@@ -103,7 +93,7 @@ export default {
         display: block;
         text-decoration: none;
         margin: 0px;
-        text-indent: 170px;
+        text-indent: 185px;
         line-height: 3rem;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 700;
@@ -123,13 +113,7 @@ export default {
         letter-spacing: .3px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
-   
-.ApoEZ {
-  text-align:center;
-}
-.coatOfArms  {
-  display: inline-block
-}
+  
 .composite  {
   display: flex;
   align-items: center;
@@ -146,14 +130,11 @@ img:hover{
   
 }
 .decor{
-  text-indent: 120px;
+  text-indent: 115px;
   margin-bottom: .5rem;
   margin-top: .3rem;
+  margin-right: 0px
   
-}
-.pin  {
-  display: inline-block;
-  margin-right:80rem
 }
 .texT1{
   align-items: center;

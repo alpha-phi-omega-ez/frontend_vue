@@ -8,7 +8,7 @@ import Dropdown from './Menu-items/Dropdown.vue';
             <div class="navBar">
                   <div class="branding">
                          <a href="../HomePage.vue">
-                             <img src="../../../assets/img/apologomenu.png" 
+                             <img src="../../../../assets/img/apologomenu.png" 
                                  width="350" 
                                  height="45"
                                  position="top"/>
@@ -41,25 +41,6 @@ export default {
 
 
 <style scoped>
-nav .menu-items {
-    color:blue;
-    position:relative;
-    text-align:center;
-    border-bottom: 0px solid transparent;
-    display:flex;
-    transition:0.4s;
-    font-size: 16px;
-}
-nav.menu-items a {
-    color:cornflowerblue;
-    text-decoration:none;
-}
-nav .menu-item  {
-    padding: 15px 45px;
-}
-nav .navBar  {
-    display:flex;
-}
 header{
     position:fixed;
     left:0;
@@ -67,5 +48,34 @@ header{
     z-index:200;
     height:55px
 }
+img:hover{
+  box-shadow: 0 0 9px 9px rgba(0, 255, 89, 0.5);
+  
+}
+nav .menu-items {
+    color:blue;
+    position:relative;
+    text-align:center;
+    border-bottom: 0px solid transparent;
+    display:flex;
+    transition:0.4s;
+    font-size: 18px;
+}
+nav.menu-items a {
+    color:cornflowerblue;
+    text-decoration:none;
+}
+nav .menu-item  {
+    padding: 15px 60px;
+}
+nav .navBar  {
+    display:flex;
+}
+.branding {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right:-30px
+}
+
 </style>
 

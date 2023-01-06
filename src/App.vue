@@ -1,6 +1,6 @@
 <script setup>
 import HomePage from "./components/views/HomePage.vue";
-import navBar from "./components/items/navBarComp/navBar.vue";
+import navBar from "./components/items/MultiUse/navBarComp/navBar.vue";
 import frontimage from "./components/items/homePage/frontimg.vue";
 </script>
 

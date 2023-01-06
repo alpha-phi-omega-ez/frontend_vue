@@ -1,6 +1,6 @@
 <script setup>
 import frontimage from "../items/homePage/frontimg.vue";
-import navBar from "../items/navBarComp/navBar.vue";
+import navBar from "../items/MultiUse/navBarComp/navBar.vue";
 import BodyText from "../items/homePage/homeBlurb.vue"
 defineProps({
   msg: {

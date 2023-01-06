@@ -6,8 +6,8 @@ import image from "../../../assets/img/websiteCreation.png";
      <div class="PhotoReel">
         <a href="https://www.apoez.org/">
             <img src="../../../assets/img/websiteCreation.png"
-              width="1080" 
-              height="755"
+              width="1200" 
+              height="860"
               position="center"/>
         </a>
      </div>
@@ -34,5 +34,9 @@ export default {
   background-color: #ebebeb;
   margin-bottom: -1rem;
   margin-top: 3rem
+}
+img:hover{
+  box-shadow: 0 0 9px 9px rgba(0, 255, 89, 0.5);
+  
 }
 </style>
