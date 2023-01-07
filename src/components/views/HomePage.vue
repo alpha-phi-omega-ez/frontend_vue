@@ -14,20 +14,26 @@ defineProps({
 </script>
 
 <template>
-  <div class="HomePage">
-    <navBar> </navBar>
-    <FrontImage> </FrontImage>
-    <CompositePhoto> </CompositePhoto>
-    <LFSandAPO> </LFSandAPO>
-    <APOsymbolIcons> </APOsymbolIcons>
-    <SocialsFooter> </SocialsFooter>
-  </div>
+    <div class="HomePage">
+        <navBar> </navBar>
+        <FrontImage> </FrontImage>
+        <CompositePhoto> </CompositePhoto>
+        <LFSandAPO> </LFSandAPO>
+        <APOsymbolIcons> </APOsymbolIcons>
+        <SocialsFooter> </SocialsFooter>
+    </div>
 </template>
 
 <script>
 export default {
   name: "HomePage",
-  components: (navBar, frontimage, BodyText),
+  components:
+    (navBar,
+    FrontImage,
+    CompositePhoto,
+    LFSandAPO,
+    APOsymbolIcons,
+    SocialsFooter),
 };
 </script>
 

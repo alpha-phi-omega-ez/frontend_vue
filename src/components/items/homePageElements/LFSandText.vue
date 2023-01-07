@@ -1,38 +1,42 @@
 <script setup></script>
 
 <template>
-      <body>
-         <div class="whatIsAPO">
-                    <div class="texT1">
-                           <h2>What is Alpha Phi Omega?</h2>
-                                <div class="decor">
-                                      <img src="../../../assets/img/decor.png"
-                                         width="440" 
-                                         height="15"
-                                         position="center"/>
-                                </div>
-                            <h3>Alpha Phi Omega is a gender-inclusive national</h3>
-                            <h3>service fraternity affiliated and founded on Boy</h3>
-                            <h3>Scout Principles. As an organization, we strive</h3>
-                            <h3>to better our community, campus, country, and</h3>
-                            <h3>beyond through serving others and volunteerism,</h3>
-                            <h3>while promoting ideals of leadership, friendship,</h3>
-                            <h3>and service amongst members. First established</h3>
-                            <h3>on Lafayette's College campus (PA), in 1925,</h3>
-                            <h3>membership has since grown to over 525,000</h3>
-                            <h3>members and 325 chapters nationwide!</h3>
-                    </div>
-                    <div class="LFS">
-                          <img src="../../../assets/img/LeadershipFriendshipService.png"
-                              width="750" 
-                              height="540"
-                              position="center"/>
-                    </div>
-              </div>
-        </body>
- </template>
+  <body>
+    <div class="whatIsAPO">
+      <div class="texT1">
+        <h2>What is Alpha Phi Omega?</h2>
+        <div class="decor">
+          <img
+            src="../../../assets/img/decor.png"
+            width="440"
+            height="15"
+            position="center"
+          />
+        </div>
+        <h3>Alpha Phi Omega is a gender-inclusive national</h3>
+        <h3>service fraternity affiliated and founded on Boy</h3>
+        <h3>Scout Principles. As an organization, we strive</h3>
+        <h3>to better our community, campus, country, and</h3>
+        <h3>beyond through serving others and volunteerism,</h3>
+        <h3>while promoting ideals of leadership, friendship,</h3>
+        <h3>and service amongst members. First established</h3>
+        <h3>on Lafayette's College campus (PA), in 1925,</h3>
+        <h3>membership has since grown to over 525,000</h3>
+        <h3>members and 325 chapters nationwide!</h3>
+      </div>
+      <div class="LFS">
+        <img
+          src="../../../assets/img/LeadershipFriendshipService.png"
+          width="750"
+          height="540"
+          position="center"
+        />
+      </div>
+    </div>
+  </body>
+</template>
 
-<style scoped lang="css">
+<style scoped>
 h2 {
   color: #3f3f3f;
   align-items: center;

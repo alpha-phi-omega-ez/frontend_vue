@@ -1,88 +1,72 @@
 <template>
-  <footer>
-    <div class="Socials">
-      <div class="InstaGram">
-        <a href="https://www.instagram.com/apoez_rpi/">
-          <img
-            src="../../../assets/icons/instagramicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="FaceBook">
-        <a href="https://www.facebook.com/APOatRPI/">
-          <img
-            src="../../../assets/icons/facebookicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="TwitterLink">
-        <a href="https://twitter.com/apoepsilonzeta">
-          <img
-            src="../../../assets/icons/twittericon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="TikTok">
-        <a href="https://www.tiktok.com/@apo.epsilon.zeta">
-          <img
-            src="../../../assets/icons/tiktokicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="YouTube">
-        <a href="https://www.youtube.com/channel/UCO0aoPiinmDPrVOd1w0RKjw">
-          <img
-            src="../../../assets/icons/youtubeicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="DiscordLink">
-        <a href="https://discord.gg/prrB7HhMG3">
-          <img
-            src="../../../assets/icons/discordicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="Twitch">
-        <a href="https://www.twitch.tv/apoez_rpi">
-          <img
-            src="../../../assets/icons/twitchicon.png"
-            width="37"
-            height="37"
-            position="center"
-          />
-        </a>
-      </div>
-      <div class="LinkTree">
-        <a href="https://linktr.ee/apo.ez">
-          <img
-            src="../../../assets/icons/linktreeicon.png"
-            width="30"
-            height="30"
-            position="center"
-          />
-        </a>
-      </div>
-    </div>
-  </footer>
+      <footer>
+            <div class="Socials">
+                  <div class="InstaGram">
+                        <a href="https://www.instagram.com/apoez_rpi/">
+                              <img src="../../../assets/icons/instagramicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="FaceBook">
+                        <a href="https://www.facebook.com/APOatRPI/">
+                              <img src="../../../assets/icons/facebookicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="TwitterLink">
+                        <a href="https://twitter.com/apoepsilonzeta">
+                              <img src="../../../assets/icons/twittericon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="TikTok">
+                        <a href="https://www.tiktok.com/@apo.epsilon.zeta">
+                              <img src="../../../assets/icons/tiktokicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="YouTube">
+                        <a href="https://www.youtube.com/channel/UCO0aoPiinmDPrVOd1w0RKjw">
+                              <img src="../../../assets/icons/youtubeicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                            </a>
+                  </div>
+                  <div class="DiscordLink">
+                        <a href="https://discord.gg/prrB7HhMG3">
+                              <img src="../../../assets/icons/discordicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="Twitch">
+                        <a href="https://www.twitch.tv/apoez_rpi">
+                            <img src="../../../assets/icons/twitchicon.png"
+                                    width="37"
+                                    height="37"
+                                    position="center"/>
+                        </a>
+                  </div>
+                  <div class="LinkTree">
+                        <a href="https://linktr.ee/apo.ez">
+                              <img src="../../../assets/icons/linktreeicon.png"
+                                    width="30"
+                                    height="30"
+                                    position="center"/>
+                        </a>
+                  </div>
+            </div>
+      </footer>
 </template>
 
 <style scoped lang="css">
