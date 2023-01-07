@@ -8,8 +8,8 @@ import FooterBottom from "../MultiUse/FooterPage.vue"
                <h1>Welcome to the Official Website of Alpha Phi Omega, Epsilon Zeta Chapter!</h1>
                    <div class="composite">
                        <img src="../../../assets/img/F2022_Composite_1.png"
-                           width="1150" 
-                           height="700"
+                           width="1000" 
+                           height="590"
                            position="center"/>
                   </div>
                <h1>Be a Leader, Be a Friend, Be of Service</h1>
@@ -35,8 +35,8 @@ import FooterBottom from "../MultiUse/FooterPage.vue"
                     </div>
                     <div class="LFS">
                           <img src="../../../assets/img/LeadershipFriendshipService.png"
-                              width="880" 
-                              height="670"
+                              width="770" 
+                              height="600"
                               position="center"/>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ export default {
         display: block;
         text-decoration: none;
         margin: 0px;
-        text-indent: 185px;
+        text-indent: 175px;
         line-height: 3rem;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 700;
@@ -108,7 +108,7 @@ export default {
         display: block;
         text-decoration: none;
         margin: 0px;
-        text-indent: 170px;
+        text-indent: 160px;
         line-height: 1.6rem;
         letter-spacing: .3px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -121,8 +121,7 @@ export default {
   vertical-align: middle;
   margin-bottom: 0px;
   margin-top:0px;
-  width:980; 
-  height:590
+  
   
 }
 img:hover{
@@ -130,7 +129,7 @@ img:hover{
   
 }
 .decor{
-  text-indent: 115px;
+  text-indent: 105px;
   margin-bottom: .5rem;
   margin-top: .3rem;
   margin-right: 0px

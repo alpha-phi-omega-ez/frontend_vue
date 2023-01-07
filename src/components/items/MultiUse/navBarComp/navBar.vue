@@ -60,13 +60,15 @@ nav .menu-items {
     display:flex;
     transition:0.4s;
     font-size: 18px;
+    font-weight: 1000px;
 }
 nav.menu-items a {
     color:cornflowerblue;
     text-decoration:none;
 }
 nav .menu-item  {
-    padding: 15px 60px;
+    padding: 15px 50px;
+    
 }
 nav .navBar  {
     display:flex;
@@ -74,7 +76,7 @@ nav .navBar  {
 .branding {
     margin-left: 10px;
     margin-top: 5px;
-    margin-right:-30px
+    margin-right:-50px;
 }
 
 </style>

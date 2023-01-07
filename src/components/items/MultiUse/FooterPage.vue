@@ -38,7 +38,7 @@ button  {
   }
   .pin  {
   display: inline-block;
-  margin-right:84rem;
+  margin-right:75rem;
   margin-left:3rem
 }
 

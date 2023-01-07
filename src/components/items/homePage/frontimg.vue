@@ -6,8 +6,8 @@ import image from "../../../assets/img/websiteCreation.png";
      <div class="PhotoReel">
         <a href="https://www.apoez.org/">
             <img src="../../../assets/img/websiteCreation.png"
-              width="1200" 
-              height="860"
+              width="1000" 
+              height="740"
               position="center"/>
         </a>
      </div>
