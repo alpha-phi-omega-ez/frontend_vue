@@ -1,15 +1,14 @@
 <script setup>
 import HomePage from "./components/views/HomePage.vue";
-import navBar from "./components/items/MultiUse/navBarComp/navBar.vue";
-import frontimage from "./components/items/homePage/frontimg.vue";
 </script>
 
 <template>
-    <div class="wrapper">
-         <main msg="Alpha Phi Omega, Epsilon Zeta Chapter at Rensselaer Polytechnic Institute" />
-             <HomePage>
-            </HomePage>
-    </div>
+  <div class="wrapper">
+    <main
+      msg="Alpha Phi Omega, Epsilon Zeta Chapter at Rensselaer Polytechnic Institute"
+    />
+    <HomePage> </HomePage>
+  </div>
 </template>
 
 <style scoped>
@@ -23,7 +22,6 @@ header {
 }
 
 @media (min-width: 1024px) {
-  
   .logo {
     margin: 0 2rem 0 0;
   }
@@ -32,7 +30,7 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
