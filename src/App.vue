@@ -3,10 +3,8 @@ import HomePage from "./components/views/HomePage.vue";
 </script>
 
 <template>
-  <div class="wrapper">
-    <main
-      msg="Alpha Phi Omega, Epsilon Zeta Chapter at Rensselaer Polytechnic Institute"
-    />
+    <div class="wrapper">
+      <main msg="Alpha Phi Omega, Epsilon Zeta Chapter at Rensselaer Polytechnic Institute"/>
     <HomePage> </HomePage>
   </div>
 </template>

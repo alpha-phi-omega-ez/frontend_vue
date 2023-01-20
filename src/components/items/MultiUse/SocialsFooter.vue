@@ -50,7 +50,7 @@
                         </a>
                   </div>
                   <div class="Twitch">
-                        <a href="https://www.twitch.tv/apoez_rpi">
+                        <a href="https://www.twitch.tv/apoez_rpi" target="_blank">
                             <img src="../../../assets/icons/twitchicon.png"
                                     width="37"
                                     height="37"

@@ -17,11 +17,11 @@ import Dropdown from "./Menu-items/Dropdown.vue";
           </a>
         </div>
         <div class="menu-items">
-          <div class="menu-item"><a href="#">About Us</a></div>
-          <div class="menu-item"><a href="#">Service</a></div>
-          <div class="menu-item"><a href="#">Fellowship</a></div>
-          <div class="menu-item"><a href="#">Information</a></div>
-          <div class="menu-item"><a href="#">Login</a></div>
+            <div class="menu-item"><a href="#">About Us</a></div>
+            <div class="menu-item"><a href="#">Service</a></div>
+            <div class="menu-item"><a href="#">Fellowship</a></div>
+            <div class="menu-item"><a href="#">Information</a></div>
+            <div class="menu-item"><a href="#">Login</a></div>
         </div>
       </div>
     </nav>
