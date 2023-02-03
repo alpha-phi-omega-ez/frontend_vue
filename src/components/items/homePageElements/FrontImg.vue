@@ -35,6 +35,6 @@ export default {
     margin-top: 3rem;
   }
   img:hover {
-    box-shadow: 0 0 9px 9px rgba(0, 255, 89, 0.5);
+    box-shadow: 0 0 9px 9px  rgba(0, 213, 255, 0.5);
   }
 </style>

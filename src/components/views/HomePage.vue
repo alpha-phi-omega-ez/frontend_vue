@@ -3,6 +3,7 @@ import FrontImage from "../items/homePageElements/FrontImg.vue";
 import navBar from "../items/MultiUse/navBarComp/navBar.vue";
 import LFSandAPO from "../items/homePageElements/LFSandText.vue";
 import SocialsFooter from "../items/MultiUse/SocialsFooter.vue";
+import ContactFooter from "../items/MultiUse/infofooter.vue"
 import CompositePhoto from "../items/homePageElements/CompositeImg.vue";
 import APOsymbolIcons from "../items/MultiUse/APOsymbols.vue";
 defineProps({
@@ -20,6 +21,7 @@ defineProps({
         <CompositePhoto> </CompositePhoto>
         <LFSandAPO> </LFSandAPO>
         <APOsymbolIcons> </APOsymbolIcons>
+        <ContactFooter></ContactFooter>
         <SocialsFooter> </SocialsFooter>
     </div>
 </template>
@@ -33,6 +35,7 @@ export default {
     CompositePhoto,
     LFSandAPO,
     APOsymbolIcons,
+    ContactFooter,
     SocialsFooter),
 };
 </script>

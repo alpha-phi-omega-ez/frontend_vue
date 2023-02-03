@@ -79,9 +79,8 @@ footer {
   transition: 0.4s;
   font-size: 18px;
   font-weight: 1000px;
-  z-index: 200;
+  z-index: 50;
   height: 75px;
-  margin-top: 7rem;
 }
 .Socials {
   display: flex;
