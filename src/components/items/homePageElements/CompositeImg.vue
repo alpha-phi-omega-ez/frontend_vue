@@ -14,7 +14,7 @@
 <style scoped lang="css">
     h1 {
       color: #3f3f3f;
-      background-color: rgb(255, 197, 8);
+      background-color: #f0bf0d;
       align-items: center;
       justify-items: center;
       text-align: center;

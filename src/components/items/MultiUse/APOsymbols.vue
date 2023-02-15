@@ -31,6 +31,7 @@ button {
   border-radius: 10px;
   color: antiquewhite;
   margin-top: 5rem;
+  margin-bottom: 5rem
 }
 .coatOfArms {
   display: inline-block;

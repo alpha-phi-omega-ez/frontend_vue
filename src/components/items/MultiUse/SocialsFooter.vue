@@ -1,69 +1,87 @@
 <template>
       <footer>
-            <div class="Socials">
-                  <div class="InstaGram">
-                        <a href="https://www.instagram.com/apoez_rpi/">
-                              <img src="../../../assets/icons/instagramicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
+            <div class="bottomPageFooter">
+                  <div class="Socials">
+                        <div class="InstaGram">
+                              <a href="https://www.instagram.com/apoez_rpi/">
+                                    <img src="../../../assets/icons/instagramicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="FaceBook">
+                              <a href="https://www.facebook.com/APOatRPI/">
+                                    <img src="../../../assets/icons/facebookicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="TwitterLink">
+                              <a href="https://twitter.com/apoepsilonzeta">
+                                    <img src="../../../assets/icons/twittericon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="TikTok">
+                              <a href="https://www.tiktok.com/@apo.epsilon.zeta">
+                                    <img src="../../../assets/icons/tiktokicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="YouTube">
+                              <a href="https://www.youtube.com/channel/UCO0aoPiinmDPrVOd1w0RKjw">
+                                    <img src="../../../assets/icons/youtubeicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="DiscordLink">
+                              <a href="https://discord.gg/prrB7HhMG3">
+                                    <img src="../../../assets/icons/discordicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="Twitch">
+                              <a href="https://www.twitch.tv/apoez_rpi" target="_blank">
+                              <img src="../../../assets/icons/twitchicon.png"
+                                          width="37"
+                                          height="37"
+                                          position="center"/>
+                              </a>
+                        </div>
+                        <div class="LinkTree">
+                              <a href="https://linktr.ee/apo.ez">
+                                    <img src="../../../assets/icons/linktreeicon.png"
+                                          width="30"
+                                          height="30"
+                                          position="center"/>
+                              </a>
+                        </div>
                   </div>
-                  <div class="FaceBook">
-                        <a href="https://www.facebook.com/APOatRPI/">
-                              <img src="../../../assets/icons/facebookicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
-                  </div>
-                  <div class="TwitterLink">
-                        <a href="https://twitter.com/apoepsilonzeta">
-                              <img src="../../../assets/icons/twittericon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
-                  </div>
-                  <div class="TikTok">
-                        <a href="https://www.tiktok.com/@apo.epsilon.zeta">
-                              <img src="../../../assets/icons/tiktokicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
-                  </div>
-                  <div class="YouTube">
-                        <a href="https://www.youtube.com/channel/UCO0aoPiinmDPrVOd1w0RKjw">
-                              <img src="../../../assets/icons/youtubeicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                            </a>
-                  </div>
-                  <div class="DiscordLink">
-                        <a href="https://discord.gg/prrB7HhMG3">
-                              <img src="../../../assets/icons/discordicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
-                  </div>
-                  <div class="Twitch">
-                        <a href="https://www.twitch.tv/apoez_rpi" target="_blank">
-                            <img src="../../../assets/icons/twitchicon.png"
-                                    width="37"
-                                    height="37"
-                                    position="center"/>
-                        </a>
-                  </div>
-                  <div class="LinkTree">
-                        <a href="https://linktr.ee/apo.ez">
-                              <img src="../../../assets/icons/linktreeicon.png"
-                                    width="30"
-                                    height="30"
-                                    position="center"/>
-                        </a>
+                  <div class="InfoOnAPOEZ">
+                        <div class="ContactInfo">
+                              <body>
+                                    <h3>Contact us!</h3>
+                                    <h2>Email: contact@apoez.org</h2>
+                              </body>
+                        </div>
+                        <div class="LocationUnion">
+                              <body>
+                                    <h3>Location:</h3>
+                                    <h2>Union Room 3420</h2>
+                                    <h3>Phone Number:</h3>
+                                    <h2>(518)-276-6516</h2>
+                              </body>
+                        </div>
                   </div>
             </div>
       </footer>
@@ -80,7 +98,49 @@ footer {
   font-size: 18px;
   font-weight: 1000px;
   z-index: 50;
-  height: 75px;
+  height: 150px;
+}
+h3 {
+        color: #ffffff;
+        align-items: center;
+        justify-items: center;
+        text-align: justify;
+        font-size: 21px;
+        display: block;
+        text-decoration: none;
+        margin: 0px;
+        text-indent: 0px;
+        line-height: 3rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        background-color: black;
+        }
+
+    h2 {
+        color: #ffffff;
+        align-items: center;
+        justify-items: center;
+        text-align: justify;
+        font-size: 17px;
+        display: block;
+        text-decoration: none;
+        margin: 0px;
+        text-indent: 0px;
+        line-height: 1.6rem;
+        letter-spacing: 0.3px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        background-color: black;
+        }
+.bottomPageFooter{
+      display:flex;
+      background-color: black;
+}
+.ContactInfo{
+      background-color: black;
+}
+.InfoOnAPOEZ {
+   background-color:black;
+   display:flex
 }
 .Socials {
   display: flex;
