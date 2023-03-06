@@ -81,6 +81,5 @@ img:hover {
   display: flex;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: 0rem;
 }
 </style>

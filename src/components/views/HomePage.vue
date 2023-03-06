@@ -42,7 +42,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 31px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
   place-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
