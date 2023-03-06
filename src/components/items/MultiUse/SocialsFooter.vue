@@ -68,18 +68,28 @@
                         </div>
                   </div>
                   <div class="InfoOnAPOEZ">
-                        <div class="ContactInfo">
+                        <div class="EmailInfo">
                               <body>
+                                    <h1>""</h1>
                                     <h3>Contact us!</h3>
                                     <h2>Email: contact@apoez.org</h2>
+                                    <h1>""</h1>
                               </body>
                         </div>
                         <div class="LocationUnion">
                               <body>
+                                    <h1>""</h1>
                                     <h3>Location:</h3>
                                     <h2>Union Room 3420</h2>
+                                    <h1>""</h1>
+                              </body>
+                        </div>
+                        <div class="PhoneNum">
+                              <body>
+                                    <h1>""</h1>
                                     <h3>Phone Number:</h3>
                                     <h2>(518)-276-6516</h2>
+                                    <h1>""</h1>
                               </body>
                         </div>
                   </div>
@@ -94,11 +104,12 @@ footer {
   text-align: center;
   border-bottom: 0px solid transparent;
   display: flex;
-  transition: 0.4s;
-  font-size: 18px;
-  font-weight: 1000px;
-  z-index: 50;
   height: 150px;
+}
+h1 {
+      color:black;
+      background-color: black;
+      line-height: 2rem;
 }
 h3 {
         color: #ffffff;
@@ -126,7 +137,7 @@ h3 {
         text-decoration: none;
         margin: 0px;
         text-indent: 0px;
-        line-height: 1.6rem;
+        line-height: 2.38rem;
         letter-spacing: 0.3px;
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
         background-color: black;
@@ -135,12 +146,27 @@ h3 {
       display:flex;
       background-color: black;
 }
-.ContactInfo{
+.EmailInfo{
+      padding-bottom: 0px;
       background-color: black;
+      padding-right: 90px;
+}
+.LocationUnion{
+      background-color:black;
+      padding-right:90px;
+      padding-bottom: 35px;
+}
+.PhoneNum{
+      background-color:black;
+      padding-right:0px;
+      margin-bottom:35px;
+      justify-content: center;
+      line-height: 5rem;
 }
 .InfoOnAPOEZ {
    background-color:black;
-   display:flex
+   display:flex;
+   justify-items:center;
 }
 .Socials {
   display: flex;
@@ -148,38 +174,38 @@ h3 {
   justify-content: center;
   vertical-align: middle;
   text-align: center;
-  padding: 1rem;
+  padding: .3rem;
 }
 .InstaGram {
-  margin-left: 220px;
-  margin-right: 75px;
+  margin-left: 70px;
+  margin-right: 21px;
 }
 .FaceBook {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 .TikTok {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 .YouTube {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 .DiscordLink {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 .Twitch {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 .LinkTree {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 90px;
 }
 .TwitterLink {
-  margin-left: 25px;
-  margin-right: 75px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 </style>

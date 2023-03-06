@@ -7,7 +7,7 @@ import image from "../../../assets/img/websiteCreation.png";
             <a href="https://www.apoez.org/">
                   <img src="../../../assets/img/websiteCreation.png"
                         width="1000"
-                        height="765"
+                        height="745"
                         position="center"/>
             </a>
       </div>

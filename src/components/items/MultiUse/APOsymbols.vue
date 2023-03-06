@@ -30,8 +30,8 @@ button {
   text-decoration-color: aliceblue;
   border-radius: 10px;
   color: antiquewhite;
-  margin-top: 5rem;
-  margin-bottom: 5rem
+  margin-top: 6rem;
+  margin-bottom: 8rem
 }
 .coatOfArms {
   display: inline-block;
@@ -40,5 +40,6 @@ button {
   display: inline-block;
   margin-right: 75rem;
   margin-left: 2.5rem;
+  margin-top: -2rem
 }
 </style>

@@ -13,7 +13,7 @@
 
 <style scoped lang="css">
     h1 {
-      color: #3f3f3f;
+      color: #000000;
       background-color: #f0bf0d;
       align-items: center;
       justify-items: center;
@@ -25,7 +25,7 @@
       word-spacing: 4px;
       line-height: 4.5rem;
       font-family: Arial, Helvetica, sans-serif;
-      font-weight: 545;
+      font-weight: 562px;
     }
     .composite {
       display: flex;
